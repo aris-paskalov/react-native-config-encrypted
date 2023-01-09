@@ -1,6 +1,6 @@
 import Config from 'react-native-config';
 
-declare module 'react-native-config-encrypted' {
+declare module '@paskalov-aris/react-native-config-encrypted' {
     export interface ConfigureOptions {
         key: string;
         provider: any;
